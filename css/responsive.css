@@ -128,9 +128,6 @@
         line-height: 2rem;
         line-height: 3rem;
     }
-    .main-div{
-        margin: 0rem 2rem;
-    }
     .lists{
         gap: 0rem;
         font-size: 1rem;
@@ -146,11 +143,11 @@
         gap: 8.5rem;
     }
     .main {
-        padding: 8rem 2rem;
+        padding: 8rem 0;
     }
     .main-h1 {
         font-size: 3rem;
-        margin-bottom: 1rem;
+        margin-bottom: 5rem;
     }
     .photo-1{
         height: 17rem;
@@ -168,7 +165,7 @@
         line-height: 2.5rem;
     }
     .second-main{
-        padding: 5rem 2rem;
+        padding: 5rem 0rem;
     }
     .btn--resume:link, .btn--resume:visited{
         font-size: 1.5rem;
@@ -221,9 +218,6 @@
         gap: 0rem;
         font-size: 1rem;
     }
-    .main-div{
-        margin: 0rem 2rem;
-    }
     .links:link, .links:visited{
         padding: 0.5rem;
     }
@@ -235,11 +229,11 @@
         gap: 1.5rem;
     }
     .main {
-        padding: 8rem 2rem;
+        padding: 8rem 0;
     }
     .main-h1 {
         font-size: 3rem;
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
     }
     .photo-1{
         height: 17rem;
@@ -257,7 +251,7 @@
         line-height: 2.5rem;
     }
     .second-main{
-        padding: 5rem 2rem;
+        padding: 5rem 0rem;
     }
     .btn--resume:link, .btn--resume:visited{
         font-size: 1.5rem;
