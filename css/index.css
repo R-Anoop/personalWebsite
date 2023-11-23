@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+body{
+    font-size: 62.5%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+/* stylilng header */
+.header{
+    padding: 0.5rem 2rem;
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+}
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: rgb(28, 102, 165);
+    font-size: 3rem;
+    cursor: pointer;
+}
+.logo span{
+    color: rgb(252, 26, 26);
+}
+.lists{
+    list-style: none;
+    display: flex;
+    gap: 5.2rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.links:link,.links:visited{
+    display: inline-block;
+    color: rgb(28, 102, 165);
+    text-decoration: none;
+    padding: 1rem;
+    transition: all 0.3s;
+}
+.links:active,.links:hover{
+    color: rgba(53, 22, 175, 0.833);
+    border-radius: 20%;
+    box-shadow: inset 0 0 0 2px #bde0fe;
+}
+.flex-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.photo-1{
+    /* width: 100%; */
+    height: 30rem;
+}
+.main-h1{
+    font-size: 5.2rem;
+    margin-bottom: 2.5rem;
+}
+/* ---------------- */
+/* Styling main */
+.main{
+    background-color: aliceblue;
+    color: rgb(28, 102, 165);
+    padding: 15rem 0;
+}
+.main-h2{
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    text-align:justify;
+    font-weight: 400;
+}
+.main-h3{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 100;
+    text-align: justify;
+}
+.heading2{
+    font-size:3.2rem;
+    color: #548ec0;
+    margin-bottom: 4rem;
+}
+.btn--resume{
+    background-color: #000000;
+    display: inline-block;
+}
+.btn--resume:link,.btn--resume:visited{
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    color: #fff;
+    transition: all 0.5s;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+.btn--resume:hover,.btn--resume:active{
+    background-color: #ffffff;
+    color: #000000;
+}
+/* --------------- */
+/* second-main */
+.second-main{
+    color: rgb(28, 102, 165);
+    padding: 10rem 0rem;
+}
+/* .main-div{
+    display: flex;
+    flex-direction: column;
+} */
+.center{
+    text-align: center;
+}
+.main-h span{
+    color: red;
+    text-align: justify;
+}
+.main-h{
+    font-size: 2rem;
+    margin-bottom: 2.2rem;
+    text-align: justify;
+    line-height: 3.5rem;
+    font-weight: 100;
+}
+.main-h2{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.codeimg{
+    width: 70%;
+}
+/* ------------ */
+/* third-main */
+.third-main{
+    background-color: aliceblue;
+    color: rgb(28, 102, 165);
+    padding: 5rem 0rem;
+}
+.section2{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.main-heading{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.h3{
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+/* input:disabled{
+    color: #548ec0;
+} */
+.inputLikeLabel {
+    background-color: #ffffff;
+    text-align: center;
+    border: none;
+    color: #000000;
+    width: 60%;
+    pointer-events:none;
+}
+.skill{
+    font-size: 1.5rem;
+    margin: 2rem auto 2rem auto;
+    background-color: #6ecafb;
+    width: 70%;
+}
+/* -------------------- */
+/* contact us */
+.fourth-main{
+    padding: 5rem;
+}
+.bottom-container p{
+    margin-top: 5px;
+    line-height: 2;
+  }
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  }
+.contact-h1{
+    font-size: 3.2rem;
+    color: rgb(28, 102, 165);
+    font-weight: bolder;
+    padding-bottom: 3.6rem;
+}
+.contact-h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 3rem;
+  }
+  .contact-h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-size: 1.2rem;
+  }
+  .contact-message{
+    font-size: 2.2rem;
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+.bottom-container a{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.bottom-container a:hover{
+    color: #EAF6F6;
+}
+.bottom-container p{
+    font-size: large;
+}
+/* ---------- */
